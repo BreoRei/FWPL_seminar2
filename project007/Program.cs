@@ -16,7 +16,7 @@ if (x1 > x2) {
     x1 = x2;
     x2 = help;
 }
-if (x3 > x4){
+if (x3 > x4) {
     help = x3;
     x3 = x4;
     x4 = help;
@@ -33,4 +33,3 @@ if (x1 < x3 && x2 > x3) {
 } else {
     Console.WriteLine("Не пересекаются");
 }
-
